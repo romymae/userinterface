@@ -7,41 +7,53 @@
    tools:context="com.example.romymae.myapplication.MainActivity">
 
 
-    <ImageView
-        android:src="@drawable/doggo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop" />
     <android.support.v7.widget.LinearLayoutCompat
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayoutCompat"></android.support.v7.widget.LinearLayoutCompat>
+        android:id="@+id/linearLayoutCompat"></android.support.v7.widget.LinearLayoutCompat
+        >
 
-    <TextView
-        android:text= "GHELLOW!!"
-        android:textColor="@android:color/background_light"
+    <ImageView
+        android:src="@drawable/bart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="90px"
-        android:textAlignment="center"
-        android:layout_marginBottom="15dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        />
-
-    <TextView
-        android:text="Zus says hello"
-        android:textColor="@android:color/background_light"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="90px"
-        android:textAlignment="center"
-        android:layout_marginTop="13dp"
-        android:id="@+id/textView"
-        android:layout_below="@+id/linearLayoutCompat"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="69dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:src="@drawable/reclame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <TextView
+        android:text="voor de lekkerste broodjes, broden, en meer.
+         Alle producten van Bakker bart worden elke dag vers gemaakt
+
+        meer informatie:
+         http://www.bakkerbart.nl/ "
+        android:textColor="@android:color/background_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35px"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
 
     />
 
